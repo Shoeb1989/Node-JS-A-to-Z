@@ -25,3 +25,23 @@ server.listen(3000, () => {
   console.log('Server running on http://localhost:3000');
 });
 ```
+
+
+## Node.js Architecture (Simplified Tree)
+
+
+
+```bash
+  Node.js Runtime
+│
+├── V8 Engine (JavaScript Execution)
+├── LibUV (Event Loop & Async I/O)
+├── Core Modules (HTTP, FS, Path, etc.)
+│
+├── NPM (Package Manager)
+│   └── node_modules (Dependencies)
+│
+└── Your Application Code
+```
+
+
