@@ -43,5 +43,6 @@ server.listen(3000, () => {
 │
 └── Your Application Code
 ```
+![image](https://github.com/user-attachments/assets/dc0b2bb6-1286-4fdd-a924-78876a858f24)
 
 
