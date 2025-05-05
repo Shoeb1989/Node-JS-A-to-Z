@@ -17,7 +17,7 @@
 // let age = 26;
 // let hobby = true;
 
-age = 30;
+// age = 30;
 
 // let value can be changeable
 // Const can't be changeable 
@@ -27,12 +27,20 @@ age = 30;
 // let age = 26;
 // const hobby = true;
 
-function SumarizeUser (UserName, Userage , Userhobby) {
-    return (
-        'his name is: ' + 
-        UserName + 'his age is :  ' + 
-        Userage + ' his hobby is : ' + Userhobby
-    );
-}
+// function SumarizeUser (UserName, Userage , Userhobby) {
+//     return (
+//         'his name is: ' + 
+//         UserName + 'his age is :  ' + 
+//         Userage + ' his hobby is : ' + Userhobby
+//     );
+// }
 
-console.log(SumarizeUser(Name , age , hobby));
+// console.log(SumarizeUser(Name , age , hobby));
+
+
+const add = (a, b) => {
+    return a + b;
+    };
+    
+    console.log(add(1,2));
+    
