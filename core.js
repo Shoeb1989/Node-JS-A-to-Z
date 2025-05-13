@@ -58,12 +58,14 @@ const Name = 'max';
 let age = 26;
 const hobby = true;
 
-function SumarizeUser = (UserName, Userage , Userhobby) => {
+age = 30;
+
+const SumarizeUser = (UserName, Userage , Userhobby) => {
     return (
         'his name is: ' + 
         UserName + 'his age is :  ' + 
         Userage + ' his hobby is : ' + Userhobby
     );
-}
+};
 
 console.log(SumarizeUser(Name , age , hobby));
